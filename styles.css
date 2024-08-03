@@ -1,82 +1,95 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background: url('assets/background.png') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    background-color: #FCEAD4;
+    color: #000000;
+}
+
+.top-section {
+    background-color: #FF3131;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.shop-name-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shop-name {
+    height: 20px;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.social-icons img {
+    height: 20px;
+    margin: 0 5px;
+}
+
+.bottom-section {
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cell {
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-.container {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    padding: 20px;
-    width: 90%;
-    max-width: 400px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.profile-header {
-    text-align: center;
-}
-
-.profile-image {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
-.profile-name {
-    margin-top: 10px;
-}
-
-.nav-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin: 20px 0;
-}
-
-.button {
-    text-align: center;
+.book-info {
+    background-color: #FFFFFF;
+    border-radius: 15px;
     padding: 10px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #000;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #000;
-    color: #fff;
-}
-
-.bio {
     display: flex;
     align-items: center;
-    gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.author-image {
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
+.book-image {
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 10px;
 }
 
-.bio-text {
+.book-details {
     flex: 1;
 }
 
-.signature {
-    font-family: 'Cursive', sans-serif;
-    margin-top: 10px;
-    text-align: right;
+.book-name {
+    font-size: 1.2rem;
+    margin: 0;
 }
 
-.footer {
-    text-align: center;
-    margin-top: 20px;
+.book-quote {
+    font-size: 0.9rem;
+    margin: 5px 0 0;
+}
+
+.playlist-icons a {
+    margin-left: 10px;
 }
